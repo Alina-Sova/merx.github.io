@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    font-family: "OpenSans", sans-serif;
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    background: url(../img/header.jpg) no-repeat;
+    background-size: contain;
+    color: #fff;
+    height: 20vw;
+    position: relative;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 18px 0;
+    /* float: left; */
+    width: 23vw;
+}
+.header form{
+    /* float: right; */
+    padding: 40px 0;
+}
+.number{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1.2vw;
+}
+option{
+    color: #000;
+}
+.toplink{
+    padding: 4px 8px 5px 9px;
+    font-size: 1.2vw;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}  
+.toplink::before{
+    height: 14px;
+    width: 16px;
+    content: '';
+    margin: -2px 0;
+    display: inline-block;
+    background-image: url(../img/icons.png);
+}
+.toplink:last-child::before{
+    background-position: 0 -16px;
+}
+.order{
+    font-size: 1.1vw;
+    border-radius: 4px;
+    background-color: rgb(194, 40, 14);
+    width: 17vw;
+    height: 32px;
+    position: absolute;
+    bottom: 2vw;
+    right: 15%;
+    padding: 8px 0 4px 42px;
+}
+.order::before{
+    height: 32px;
+    width: 24px;
+    content: '';
+    float: left;
+    margin: -2px -32px;
+    display: inline-block;
+    background-position: 23px 1px;
+    background-image: url(../img/icons.png);
+}
+.main{
+    text-align: center;
+    padding: 20px 0 0;
+}
+.title{
+    font-size: 2vw;
+}
+.why{
+    font-size: 1.4vw;
+    padding: 0 30vw;
+    line-height: 1.8;
+  }
+.why span{
+    font-weight: bold;
+}
+.box{
+    margin: 0 15% 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 24vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1vw;
+}
+.icon__title{
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.rectangle{
+    position: relative;
+    padding: 0 9px;
+    flex-grow: 1;
+    border: 1px solid #c5c5c5;
+}
+.box__text span{
+    color: rgb(91, 176, 101);
+    font-size: 8vw;
+}
+.box__text{
+    font-size: 0.83vw;
+    font-weight: bold;
+}
+.icons .bottom{
+    position: absolute;
+    bottom: 1.4vw;
+    margin: 0px 2vw;
+}
+.upp{
+    text-transform: uppercase;
+}
+.icons img{
+    padding-top: 2vw;
+    max-width: 7vw;
+}
+.second{
+    margin: 0 15vw 50px;
+}
+.second__left{
+    text-align: left;
+    float: left;
+    width: 53%;
+}
+.second p{
+    padding: 8px;
+    font-size: 1.09vw;
+}
+.second p span{
+    font-weight: bold;
+}
+.second__grey{
+    background: #f5f5f6;
+}
+.second__grey span{
+    font-weight: bold;
+    color: red;
+}
+.second img{
+    height: 19vw;
+    padding-left: 4vw;
+}
+.third{
+    position: relative;
+    background: url(../img/main.jpg) no-repeat;
+    background-size: cover;
+    height: 27vw;
+    clear: both;
+}
+.third .text{
+    font-size: 1.5vw;
+    margin: 0 24vw;
+    letter-spacing: 2px;
+}
+.third .text span{
+    font-weight: bold;
+}
+.cost{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -54px;
+    margin: 0 15vw;
+    padding: 10px 0 30px;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.19);
+}
+.cost p{
+    padding: 5px 0;
+    font-size: 1.2vw;
+}
+.cost input{
+    padding: 2px 6px;
+    width: 19%;
+    border: 1px solid #ddd;
+    font-size: 1.3vw;
+}
+.cost button{
+    padding: 3px;
+    margin: 0 0 0 25px;
+    width: 19%;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(194, 40, 14);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.fourth{
+    margin: 95px 0 0;
+    padding: 30px 15vw 0 5vw;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.fourth img{
+    width: 50%;
+}
+.fourth .right{
+    width: 36vw;
+    padding-left: 1vw;
+}
+.fourth .title{
+    margin: 0;
+    font-size: 1.6vw;
+    letter-spacing: 2px;
+}
+.fourth .title span{
+    font-weight: bold;
+}
+.fourth p{
+    padding: 5px 0;
+    font-size: 1vw;
+}
+.fourth input{
+    padding: 2px 6px;
+    width: 27%;
+    border: 1px solid #ddd;
+    font-size: 1.3vw;
+}
+.fourth button{
+    padding: 5px;
+    margin: 25px;
+    width: 60%;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(194, 40, 14);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer{
+    padding: 0 15vw 15px;
+    display: flex;
+    flex-direction: column;
+    background: #363432;
+}
+.footer form{
+    padding: 40px 0;
+}
+.footer p{
+    color: rgb(138, 138, 138);
+    text-align: center;
+    font-size: 1vw;
+}
+.footer .right{
+    display: flex;
+    align-items: center;
+}
+.footer .right img{
+    padding-left: 10px;
+    height: 2vw;
+}
+  
